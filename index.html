@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad ali</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex justify-between backdrop-blur-2xl shadow-sm items-center px-5 py-2 fixed top-0 left-0 w-full z-40">
+        <div class="w-[150px]">
+            <a href="#landing"><img src="assets/logo.png" alt="Logo" class="w-full"></a>
+        </div>
+
+        <div class="hidden md:block">
+            <ul class="flex items-center gap-5 font-semibold text-[#595959]">
+                <a href="#landing" class="navLink"><li>Home</li></a>
+                <a href="#services" class="navLink"><li>Services</li></a>
+                <a href="#projects" class="navLink"><li>Projects</li></a>
+                <a href="#achivments" class="navLink"><li>Achivments</li></a>
+                <a href="#skills" class="navLink"><li>Skills</li></a>
+                <a href="#contact" class="navLink"><li>Contact</li></a>
+                <a href="https://www.facebook.com" target="_blank"><li><i class="fa-brands fa-facebook-f"></i></li></a>
+                <a href="https://www.twitter.com" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+            </ul>
+        </div>
+
+        <div class="md:hidden z-10 overflow-hidden">
+            <div id="hamburger" class="felx">
+                <i class="fa-solid fa-bars text-2xl" id="menu_icon"></i>
+            </div>
+
+            <div id="menu" class="w-0 h-screen bg-[#8C52FF]
+            text-white text-3xl font-semibold list-none flex flex-col 
+            overflow-hidden justify-center 
+            pt-12  absolute top-0 right-0 z-[-1] 
+            transition-all ease-out
+            md:hidden
+            ">
+                <a href="#landing" class="navLink border-t-[1px] p-5"><li class="ml-[40px]">Home</li></a>
+                <a href="#services" class="navLink border-t-[1px] p-5"><li class="ml-[40px]">Services</li></a>
+                <a href="#projects" class="navLink border-t-[1px] p-5"><li class="ml-[40px]">Projects</li></a>
+                <a href="#achivments" class="navLink border-t-[1px] p-5"><li class="ml-[40px]">Achivments</li></a>
+                <a href="#skills" class="navLink border-t-[1px] p-5"><li class="ml-[40px]">Skills</li></a>
+                <a href="#contact" class="navLink border-t-[1px] border-b-[1px] p-5"><li class="ml-[40px]">Contact</li></a>
+
+                <div class="flex gap-10 items-center justify-center p-5">
+                    <a href="https://www.facebook.com" target="_blank"><li><i class="fa-brands fa-facebook-f"></i></li></a>
+                    <a href="https://www.twitter.com" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="landing" class="
+    max-w-screen-2xl
+    mx-auto 
+    h-[700px]
+    pt-10 
+    relative 
+    overflow-hidden 
+    flex flex-col 
+    justify-between
+    md:flex-row md:justify-between md:items-center
+    ">
+    <h1 class="absolute text-[200px] font-bold text-gray-300 z-[-1] ml-[-80px] mt-[-300px] opacity-[50%]">DEVELOPER.</h1>
+        <div class="flex flex-col justify-center h-full mx-auto w-[50%] items-center">
+            <div class="pl-5 pt-6">
+                <h1 class="text-[12vw] leading-4 font-bold text-[#363636] md:text-7xl">CREATIVE</h1>
+                <h1 class="text-[12vw] font-bold text-[#363636] md:text-7xl">DEVELOPER.</h1>
+                <div class="mt-4 ml-1 flex  gap-5">
+                    <a href="#contact"><button class="button type1 w-[120px] h-[40px] relative bg-transparent border-[2px] border-[#252525] overflow-hidden text-[#333] transition-all ease-in">
+                        <span class="btn-txt text-[15px]">Hire me</span>
+                    </button></a>
+                    <a href="#projects"><button class="w-[150px] h-[40px] relative text-[15px] font-bold bg-[#8C52FF] tracking-[4px] overflow-hidden text-[#fff] transition-all ease-in">
+                        See works
+                    </button></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-end text-right mt-10">
+            <div class="w-[500px] h-[350px] bg-[#8C52FF] rounded-tl-[80%]">
+                <img src="assets/my-image.png" alt="my-image" class="mt-[-70px]" width="300px">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="max-w-screen-2xl h-auto p-5 pb-[150px] mx-auto bg-[#5D42D3]">
+        <div class="text-[10vw] leading-[55px] font-bold text-white
+        md:text-5xl md:pt-20 md:pl-10
+        ">
+            <h1>SERVICES</h1>
+            <h1>& PORTFOLIO</h1>
+        </div>
+        <div class="mt-[60px] flex flex-wrap gap-20 justify-center pl-3 font-Poppins mx-auto">
+            <div class="flex gap-5 items-center text-white">
+                <div class="text-4xl"><i class="fa-regular fa-address-card"></i></div>
+                <div class="">
+                    <h1 class="text-[20px]">Web development</h1>
+                    <p class="opacity-[80%] w-[300px] text-[12px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, illo!</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center text-white">
+                <div class="text-4xl"><i class="fa-solid fa-paint-roller"></i></i></div>
+                <div class="">
+                    <h1 class="text-[20px]">Web Design</h1>
+                    <p class="opacity-[80%] w-[300px] text-[12px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, illo!</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center text-white">
+                <div class="text-4xl"><i class="fa-brands fa-searchengin"></i></div>
+                <div class="">
+                    <h1 class="text-[20px]">SEO</h1>
+                    <p class="opacity-[80%] w-[300px] text-[12px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, atque?</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center text-white">
+                <div class="text-4xl"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div class="">
+                    <h1 class="text-[20px]">UI & UX</h1>
+                    <p class="opacity-[80%] w-[300px] text-[12px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, illo!</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center text-white">
+                <div class="text-4xl"><i class="fa-solid fa-bullhorn"></i></div>
+                <div class="">
+                    <h1 class="text-[20px]">Marketing</h1>
+                    <p class="opacity-[80%] w-[300px] text-[12px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, illo!</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center text-white">
+                <div class="text-4xl"><i class="fa-solid fa-bezier-curve"></i></div>
+                <div class="">
+                    <h1 class="text-[20px]">Graphic Design</h1>
+                    <p class="opacity-[80%] w-[300px] text-[12px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, illo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="
+    max-w-screen-2xl 
+    h-[1050px] 
+    bg-[#363636] 
+    mx-auto relative
+    sm:h-[800px]
+    md:h-[900px]
+    ">
+        <div class="flex flex-wrap flex-3 mt-[-90px] mx-auto w-full absolute gap-5 z-[2]">
+            <div id="work-img-cont" class="w-[300px] overflow-hidden mx-auto md:w-[400px]">
+                <a href="#" target="_blank" class="relative">
+                    <img id="work-img" src="assets/Works/1.jpg" alt="work">
+
+                    <div id="img-overlay" class="w-full h-[100%] bg-[#8C52FF] backdrop-filter backdrop-blur-sm bg-opacity-70 absolute bottom-[-100%] left-0 flex flex-col items-center justify-center">
+                        <h1 id="overlay-text" class="text-white text-2xl font-bold">WEBSITE</h1>
+                        <p class="w-[300px] text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, veritatis.</p>
+                    </div>  
+                </a>
+            </div>
+            <div id="work-img-cont" class="w-[300px] overflow-hidden mx-auto md:w-[400px]">
+                <a href="#" target="_blank" class="relative">
+                    <img id="work-img" src="assets/Works/2.jpg" alt="work">
+
+                    <div id="img-overlay" class="w-full h-[100%] bg-[#8C52FF] backdrop-filter backdrop-blur-sm bg-opacity-70 absolute bottom-[-100%] left-0 flex flex-col items-center justify-center">
+                        <h1 id="overlay-text" class="text-white text-2xl font-bold">WEBSITE</h1>
+                        <p class="w-[300px] text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, veritatis.</p>
+                    </div>   
+                </a>
+            </div>
+            <div id="work-img-cont" class="w-[300px] overflow-hidden mx-auto md:w-[400px]">
+                <a href="#" target="_blank" class="relative">
+                    <img id="work-img" src="assets/Works/3.jpg" alt="work">
+                
+                    <div id="img-overlay" class="w-full h-[100%] bg-[#8C52FF] backdrop-filter backdrop-blur-sm bg-opacity-70 absolute bottom-[-100%] left-0 flex flex-col items-center justify-center">
+                        <h1 id="overlay-text" class="text-white text-2xl font-bold">WEBSITE</h1>
+                        <p class="w-[300px] text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, veritatis.</p>
+                    </div>   
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-wrap flex-3 mt-[480px] mx-auto w-full absolute gap-5 z-[2] select-none
+        sm:mt-[300px]
+        md:mt-[400px]
+        ">
+            <div id="work-img-cont" class="w-[300px] overflow-hidden mx-auto md:w-[400px]">
+                <a href="#" target="_blank" class="relative">
+                    <img id="work-img" src="assets/Works/4.jpg" alt="work">
+
+                    <div id="img-overlay" class="w-full h-[100%] bg-[#8C52FF] backdrop-filter backdrop-blur-sm bg-opacity-70 absolute bottom-[-100%] left-0 flex flex-col items-center justify-center">
+                        <h1 id="overlay-text" class="text-white text-2xl font-bold">WEBSITE</h1>
+                        <p class="w-[300px] text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, veritatis.</p>
+                    </div>   
+                </a>
+            </div>
+            <div id="work-img-cont" class="w-[300px] overflow-hidden mx-auto md:w-[400px]">
+                <a href="#" target="_blank" class="relative">
+                    <img id="work-img" src="assets/Works/5.jpg" alt="work">
+
+                    <div id="img-overlay" class="w-full h-[100%] bg-[#8C52FF] backdrop-filter backdrop-blur-sm bg-opacity-70 absolute bottom-[-100%] left-0 flex flex-col items-center justify-center">
+                        <h1 id="overlay-text" class="text-white text-2xl font-bold">WEBSITE</h1>
+                        <p class="w-[300px] text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, veritatis.</p>
+                    </div>   
+                </a>
+            </div>
+            <div id="work-img-cont" class="w-[300px] overflow-hidden mx-auto md:w-[400px]">
+                <a href="#" target="_blank" class="relative">
+                    <img id="work-img" src="assets/Works/6.jpg" alt="work">
+
+                    <div id="img-overlay" class="w-full h-[100%] bg-[#8C52FF] backdrop-filter backdrop-blur-sm bg-opacity-70 absolute bottom-[-100%] left-0 flex flex-col items-center justify-center">
+                        <h1 id="overlay-text" class="text-white text-2xl font-bold">WEBSITE</h1>
+                        <p class="w-[300px] text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, veritatis.</p>
+                    </div>                    
+                </a>
+            </div>
+        </div>
+        <div class="overflow-hidden select-none">
+            <h1 class="absolute text-[180px] font-bold font-Poppins text-gray-400 opacity-[20%] top-[110px] z-[1] hidden lg:block">PROJECTS.</h1>
+        </div>
+    </section>
+
+    <section id="achivments" class="max-w-screen-2xl h-auto mx-auto mt-[-3px] bg-[#363636]">
+        <div class="flex flex-col justify-center text-white items-center">
+            <h1 class="text-4xl font-bold 
+            md:text-6xl
+            ">ACHIVMENTS</h1>
+            <p class="opacity-[60%] mt-2 text-
+            md:text-[23px]
+            ">I am proud of.</p>
+        </div>
+        <div class="flex flex-wrap p-10 pb-40 gap-[30px] text-center justify-center mt-[20px]
+        md:mt-[50px]
+        ">
+            <div class="flex justify-center items-center flex-col p-5">
+                <h1 class="text-8xl font-Poppins font-[600] mb-5 text-white">16</h1>
+                <p class="text-white text-[20px] leading-5">cups of coffe</p>
+                <p class="text-17px text-green-500">client</p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-5">
+                <h1 class="text-8xl font-Poppins font-[600] mb-5 text-white">24</h1>
+                <p class="text-white text-[20px] leading-5">positive reviews</p>
+                <p class="text-17px text-green-500">fiverr</p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-5">
+                <h1 class="text-8xl font-Poppins font-[600] mb-5 text-white">7</h1>
+                <p class="text-white text-[20px] leading-5">running clients</p>
+                <p class="text-17px text-green-500">client love</p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-5">
+                <h1 class="text-8xl font-Poppins font-[600] mb-5 text-white">12</h1>
+                <p class="text-white text-[20px] leading-5">happy clients</p>
+                <p class="text-17px text-green-500">clients</p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-5">
+                <h1 class="text-8xl font-Poppins font-[600] mb-5 text-white">4</h1>
+                <p class="text-white text-[20px] leading-5">design awards</p>
+                <p class="text-17px text-green-500">clients</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-screen-2xl h-auto mx-auto bg-[#5D42D3]">
+    <div class="lg:flex lg:h-[70vh]">
+        <div class="w-fit mx-auto p-10 md:p-5 flex flex-col justify-center items-center">
+            <h1 class="text-[200px] absolute text-[#6a4fe5] drop-shadow-2xl select-none font-Poppins font-bold">01</h1>
+            <div class="z-10">
+                <h1 class="text-5xl text-white font-bold z-10">Project <br> Visualisation</h1>
+                <p class="text-white mt-[30px] w-[300px]">On her way she met a copy. The copy warned the Little Blind Text, that where it came from</p>
+            </div>
+        </div>
+        <div class="w-fit mx-auto p-10 md:p-5 flex flex-col shadow-2xl justify-center items-center">
+            <h1 class="text-[200px] absolute text-[#6a4fe5] drop-shadow-2xl select-none font-Poppins font-bold">02</h1>
+            <div class="z-10">
+                <h1 class="text-5xl text-white font-bold z-10">Creation <br> & Selection</h1>
+                <p class="text-white mt-[30px] w-[300px]">On her way she met a copy. The copy warned the Little Blind Text, that where it came from</p>
+            </div>
+        </div>
+        <div class="w-fit mx-auto p-10 md:p-5 flex flex-col justify-center items-center">
+            <h1 class="text-[200px] absolute text-[#6a4fe5] drop-shadow-2xl select-none font-Poppins font-bold">03</h1>
+            <div class="z-10">
+                <h1 class="text-5xl text-white font-bold z-10">Lounching <br> Campaign</h1>
+                <p class="text-white mt-[30px] w-[300px]">On her way she met a copy. The copy warned the Little Blind Text, that where it came from</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="skills" class="max-w-screen-2xl h-auto pb-20 mx-auto">
+        <div class="flex flex-col justify-center text-center items-center p-10">
+            <h1 class="text-4xl font-bold ">MY SKILLS</h1>
+            <p class="font-semibold opacity-[90%]">Lorem ipsum dolor sit amet dolor sit.</p>
+        </div>
+
+        <div class="w-full flex flex-col justify-center items-center
+        
+        lg:flex-row lg:gap-20
+        ">
+            <div class='w-[300px] h-[220px] flex flex-col text-center mt-10 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-slate-600 border border-opacity-30 border-gray-300 rounded-md p-6'>
+                <i class="fa-brands fa-html5 text-5xl"></i>
+                <h1 class='text-3xl font-Monda font-bold text-[--secondary-text-color]'>HTML</h1>
+                <p class='font-Poppins font-[400]'> Like a therapist for my website. Listens to its components, manages its emotions, and keeps</p>
+            </div>
+            <div class='w-[300px] h-[220px] flex flex-col text-center mt-10 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-slate-600 border border-opacity-30 border-gray-300 rounded-md p-6'>
+                <i class="fa-brands fa-css3 text-5xl"></i>
+                <h1 class='text-3xl font-Monda font-bold text-[--secondary-text-color]'>CSS</h1>
+                <p class='font-Poppins font-[400]'> Like a therapist for my website. Listens to its components, manages its emotions, and keeps</p>
+            </div>
+            <div class='w-[300px] h-[220px] flex flex-col text-center mt-10 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-slate-600 border border-opacity-30 border-gray-300 rounded-md p-6'>
+                <i class="fa-brands fa-js text-5xl"></i>
+                <h1 class='text-3xl font-Monda font-bold text-[--secondary-text-color]'>JAVASCRIPT</h1>
+                <p class='font-Poppins font-[400]'> Like a therapist for my website. Listens to its components, manages its emotions, and keeps</p>
+            </div>
+        </div>
+        <div class="w-full flex flex-col justify-center items-center
+        
+        lg:flex-row lg:gap-20
+        ">
+            <div class='w-[300px] h-[220px] flex flex-col text-center mt-10 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-slate-600 border border-opacity-30 border-gray-300 rounded-md p-6'>
+                <i class="fa-brands fa-bootstrap text-5xl"></i>
+                <h1 class='text-3xl font-Monda font-bold text-[--secondary-text-color]'>BOOTSTRAP</h1>
+                <p class='font-Poppins font-[400]'> Like a therapist for my website. Listens to its components, manages its emotions, and keeps</p>
+            </div>
+            <div class='w-[300px] h-[220px] flex flex-col text-center mt-10 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-slate-600 border border-opacity-30 border-gray-300 rounded-md p-6'>
+                <i class="fa-brands fa-react text-5xl"></i>
+                <h1 class='text-3xl font-Monda font-bold text-[--secondary-text-color]'>REACT</h1>
+                <p class='font-Poppins font-[400]'> Like a therapist for my website. Listens to its components, manages its emotions, and keeps</p>
+            </div>
+            <div class='w-[300px] h-[220px] flex flex-col text-center mt-10 bg-opacity-20 backdrop-filter backdrop-blur-lg bg-slate-600 border border-opacity-30 border-gray-300 rounded-md p-6'>
+                <i class="fa-brands fa-github text-5xl"></i>
+                <h1 class='text-3xl font-Monda font-bold text-[--secondary-text-color]'>GIT/GITHUB</h1>
+                <p class='font-Poppins font-[400]'> Like a therapist for my website. Listens to its components, manages its emotions, and keeps</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="max-w-screen-2xl h-auto pb-10 mx-auto bg-slate-600 pt-5">
+        <h1 class="text-3xl text-center text-white font-Poppins font-bold">CONTACT ME</h1>
+        <div class="w-[70%] mx-auto flex flex-col justify-evenly items-center gap-20 mt-20
+        md:flex-row
+        ">
+        <div class="">
+            <h1 class="text-5xl font-bold font-Poppins text-white">Let's <span class="text-[#9178ff]">connect</span> <br> Together !</h1>
+        </div>
+
+        <div>
+            <form action="#" method="post" class="flex flex-col mt-5 justify-center">
+                <div class="w-[300px] mx-auto">
+                    <label for="name" class="text-[19px] text-white">Name:</label>
+                    <br>
+                    <input type="text" placeholder="Name" required class="bg-transparent text-white outline-none border-b-[1px] w-[300px]
+                    lg:w-[400px]
+                    ">
+                </div>
+                <div class="w-[300px] mx-auto mt-3">
+                    <label for="name" class="text-[19px] text-white">Email:</label>
+                    <br>
+                    <input type="email" placeholder="Email" required class="bg-transparent text-white outline-none border-b-[1px] w-[300px]
+                    lg:w-[400px]
+                    ">
+                </div>
+                <div class="w-[300px] mx-auto mt-5">
+                    <label class="text-[19px] text-white">Message:</label>
+                    <textarea required class="w-[300px] h-[200px] bg-transparent text-white border rounded-md p-2 outline-none lg:w-[400px]" placeholder="Write your message"></textarea>
+                    <button type="submit" class="bg-slate-500 text-white font-bold text-[18px] w-[100px] h-[40px] ">Send</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <footer class="max-w-screen-2xl mx-auto h-[120px] p-5 bg-gray-500 flex justify-center items-center">
+        <div class="flex justify-between items-center w-full">
+            <div>
+                <img src="assets/logo.png" alt="Logo" width="100px" class="md:w-[150px]">
+                <p class="text-gray-300">&copy; 2024 all rights reserved</p>
+            </div>
+            <div class="flex flex-col font-semibold text-gray-300
+            md:flex-row md:gap-5
+            ">
+                <a href="#" class="hover:text-white transition">FACEBOOK</a>
+                <a href="#" class="hover:text-white transition">INSTAGRAM</a>
+                <a href="#" class="hover:text-white transition">TWITTER</a>
+                <a href="#" class="hover:text-white transition">GITHUB</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/842fa8800a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
